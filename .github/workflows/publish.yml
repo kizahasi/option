@@ -19,9 +19,9 @@ jobs:
             - name: can publish
               run: npx can-npm-publish --verbose
             - name: install
-              run: yarn
+              run: pnpm i
             - name: build
-              run: yarn build
+              run: pnpm build
             - name: publish
               run: npm publish --access=public
               env:
