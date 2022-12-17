@@ -21,6 +21,10 @@ jobs:
               with:
                   node-version: ${{ matrix.node }}
 
+            - uses: pnpm/action-setup@v2
+              with:
+                  version: latest
+
             - name: Install
               run: pnpm i
 
@@ -51,6 +55,10 @@ jobs:
               uses: actions/setup-node@v2
               with:
                   node-version: ${{ matrix.node }}
+
+            - uses: pnpm/action-setup@v2
+              with:
+                  version: latest
 
             - name: Install
               run: pnpm i
