@@ -33,8 +33,8 @@
     },
     "description": "Represents a value which is either Some or None.",
     "devDependencies": {
-        "@commitlint/cli": "17.3.0",
-        "@commitlint/config-conventional": "17.3.0",
+        "@commitlint/cli": "17.4.4",
+        "@commitlint/config-conventional": "17.4.4",
         "@types/jest": "27.5.2",
         "@typescript-eslint/eslint-plugin": "5.31.0",
         "@typescript-eslint/parser": "5.31.0",
