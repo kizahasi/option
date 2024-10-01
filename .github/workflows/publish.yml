@@ -18,9 +18,7 @@ jobs:
                   always-auth: true
             - name: can publish
               run: npx can-npm-publish --verbose
-            - uses: pnpm/action-setup@v2
-              with:
-                  version: latest
+            - uses: pnpm/action-setup@v4
             - name: install
               run: pnpm i
             - name: build
