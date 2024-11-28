@@ -27,3 +27,7 @@ if (noneObj.isNone) {
     console.log(noneObj.value); // This cannot happen
 }
 ```
+
+## License
+
+MIT or CC0-1.0
